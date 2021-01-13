@@ -11,7 +11,7 @@ export class AppComponent {
   cookieset = false;
   constructor(private cookie: CookieService) {}
   clicked() {
-    this.cookie.set('Mfilterit', 'Rounak', { sameSite: 'None' });
+    this.cookie.set('Developer', 'Rounak');
     this.cookieset = true;
   }
 }
